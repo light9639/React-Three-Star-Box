@@ -32,7 +32,7 @@ yarn add @react-three/drei @react-three/fiber three
 - `useFrame`을 사용하여 정육면체가 돌아가도록 만들었습니다.
 - `Canvas` 태그 안에 `OrbitControls`, `ambientLight`, `spotLight`, `pointLight`를 사용하여 밝기 및 공간감을 주었습니다.
 - `Stars` 태그를 사용하여 밤하늘의 별을 만들었습니다.
-```bash
+```js
 import React, { useState, useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
@@ -79,7 +79,7 @@ export default function App() {
 ```
 ### :zap: index.css
 - `Canvas` 태그 안에 css 부분을 작성함.
-```bash
+```css
 body,
 html,
 #root {
